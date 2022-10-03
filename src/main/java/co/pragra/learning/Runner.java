@@ -1,4 +1,7 @@
-package co.pragra.learning.model;
+package co.pragra.learning;
+
+import co.pragra.learning.business.ContactService;
+import co.pragra.learning.model.Contact;
 
 import java.util.Scanner;
 

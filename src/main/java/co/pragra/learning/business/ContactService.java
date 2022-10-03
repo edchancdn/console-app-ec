@@ -1,4 +1,4 @@
-package co.pragra.learning.model;
+package co.pragra.learning.business;
 
 import co.pragra.learning.model.Contact;
 import co.pragra.learning.model.ContactType;
