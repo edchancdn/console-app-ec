@@ -19,7 +19,7 @@ public class Runner {
         service.addContact(contact);
         System.out.println("Key in Data separated by space");
         String next1 = scanner.nextLine();
-        String[] split1 = next.split(" ");
+        String[] split1 = next1.split(" ");
         Contact contact1 = Contact.builder().firstName(split1[0])
                 .lastName(split1[1])
                 .phoneNumber(split1[2])
