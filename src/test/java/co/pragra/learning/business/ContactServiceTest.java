@@ -69,8 +69,8 @@ public class ContactServiceTest {
 
     @Test
     public void addInvalidContact() {
-        //int beforeAddSize = service.getContactsSize();
-        String eMsg = "";
+        int beforeAddSize = service.getContactsSize();
+        //String eMsg = "";
         Contact contact = Contact.builder().firstName("Jane")
                 .lastName("Smith")
                 // set invalid phone number
@@ -79,10 +79,10 @@ public class ContactServiceTest {
         try {
             service.addContact(contact);
         } catch (Exception e) {
-            eMsg = e.getMessage();
+            //eMsg = e.getMessage();
         }
-        Assert.assertTrue(eMsg.equals("Phone is not a numeric value"));
-        //Assert.assertTrue(service.getContactsSize() == beforeAddSize);
+        //Assert.assertTrue(eMsg.equals("Phone is not a numeric value"));
+        Assert.assertTrue(service.getContactsSize() == beforeAddSize);
     }
 
     @Test
