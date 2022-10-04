@@ -3,11 +3,8 @@ package co.pragra.learning;
 import co.pragra.learning.business.ContactService;
 import co.pragra.learning.model.Contact;
 import co.pragra.learning.model.ContactType;
-import org.apache.commons.lang3.StringUtils;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
-import java.util.ServiceConfigurationError;
 
 public class Runner {
 
