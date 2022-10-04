@@ -1,7 +1,7 @@
 package co.pragra.learning.model;
 
 public enum ContactType {
-    PERSONAL, BUSINESS;
+    PERSONAL, BUSINESS, OTHER;
 
     public static ContactType findByName(String name) {
         ContactType result = null;
