@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContactService {
+    // test comment
     private List<Contact> contacts = new ArrayList<>();
 
     public void addContact(Contact contact) {
